@@ -6,7 +6,7 @@ body, html {
 
 #coverImg {
     background-image: url("https://i.pinimg.com/564x/9d/7b/f8/9d7bf853d819522ab6f24e0511ec1068.jpg");
-    height: 50%;
+    height: 100%;
     width: 100%;
     position: absolute;
     background-position: center;
@@ -108,7 +108,7 @@ body, html {
 
 }
 
-.buttons {
+.navButtons {
     
     display: flex;
     justify-content:space-between;
@@ -127,12 +127,20 @@ body, html {
     color: white;
     width: 100%;
     height: 5%;
+    overflow: hidden;
 
-
+    transition: top 0.3s;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.topBar {
+    background-color: black;
+    text-decoration: none;
+    color: white;
+}
+
 
   nav ul {
     margin: 0px;
@@ -271,6 +279,85 @@ body, html {
 
 }
 
+#expPage {
+
+    position: relative;
+    background-color: rgba(0,0,0, 0.3);
+    height: 100%;
+
+}
+
+.expH {
+    font-size: 50px;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    top: 10%;
+    left: 5%;
+
+}
+
+.descriptionE {
+
+    font-size: 30px;
+    position: relative;
+    width: 50%;
+    height: 100%;
+    top: 25%;
+    left: 5%;
+
+}
+
+#educPage {
+
+    position: relative;
+    background-color: rgba(0,0,0, 0.7);
+    height: 100%;
+
+}
+
+.educH {
+    font-size: 50px;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    top: 10%;
+    left: 5%;
+
+}
+
+.descriptionED {
+
+    font-size: 30px;
+    position: relative;
+    width: 50%;
+    height: 100%;
+    top: 25%;
+    left: 5%;
+    color: white;
+
+}
+
+
+#contactPage {
+
+    position: relative;
+    background-color: lightgray;
+    height: 25%;
+
+}
+
+.contactH {
+    font-size: 50px;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+
+}
 
 
 
