@@ -2,29 +2,54 @@ body, html {
     height: 100%;
     margin: 0;
     background-color: lightgray;
-    font-family: 'Lucida Sans', serif;
+    font-family: 'Lora', serif;
     scroll-behavior: smooth;
   }
 
-.div {
-    display: block;
-}
+
 
 #coverImg {
 
-    background-image: url("https://i.pinimg.com/564x/9d/7b/f8/9d7bf853d819522ab6f24e0511ec1068.jpg");
+    background-image: url("background.jpg");
     height: 100%;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
-    visibility: visible;
+    
+
     position: relative;
     top: 0px;
     left: 0px;
-    overflow: hidden;
     transform: translate3d(0px, 0px, 0px);
+    background-color: white;
+    opacity: 0.5;
+}
+
+
+.homeH {
+
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    bottom: 50%;
+    color: black;
+    left: 10%;
+    font-weight: 500;
+    font-size: 90px;
+
+}
+
+.homeN {
+
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 140px;
+    bottom: 30%;
+    left: 10%;
+    color: black;
+    font-weight: 1400;
+
 }
 
 
@@ -37,27 +62,33 @@ body, html {
     border-radius: 50%;
     position: relative;
     box-shadow: 0px 6px 5px gray;
+    border: 2px solid black;
 }
 
 .name {
     position: absolute;
-    left: 27%;
+    left: 30%;
     top: 35%;
     font-size: 50px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     text-transform: uppercase;
-    color: white;
+    color: black;
 }
 
 .content {
     position: absolute;
-    left: 27%;
-    top: 45%;
-    margin-right: 40%;
+    right: 12%;
+    top: 40%;
     font-size: 16px;
     line-height: 150%;
-    color: white;
+    color: black;
+    line-height: 40px;
+    text-align: justify;
+
+    padding-left: 600px;
+    padding-right: 600px;
+
 }
 
 .home {
@@ -113,7 +144,6 @@ body, html {
 .education {
     
     position: relative;
-    
     padding-top: 20px;
     padding-right: 90px;
     padding-bottom: 20px;
@@ -137,8 +167,8 @@ body, html {
     position: fixed;
     top: 0px;
     display: flex;
-    justify-content:space-between;
-    background-color:black!important;
+    justify-content: space-between;
+    background-color: black!important;
     color: white!important;
     width: 100%;
     height: 5%;
@@ -151,13 +181,13 @@ body, html {
 
   nav ul {
     margin: 0px;
-  
+
   }
+
   nav li {
     display: flex;
     justify-content:space-between;
-    margin-left: 5%;
-    margin-right: 5%;
+    float: left;
     text-decoration: none;
     
   }
@@ -225,14 +255,14 @@ body, html {
 }
 
 
-#seperation {
-    margin-top: 10%;
-}
+
 
 #aboutPage {
     position: relative;
-    background-color: rgba(0,0,0, 0.3);
-    height: 100%
+    height: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+
 
 }
 
@@ -243,6 +273,9 @@ body, html {
     font-weight: 300;
     text-transform: uppercase;
     text-align: center;
+    right: 6%;
+    color: black;
+    top: 31%;
 
 }
 
@@ -252,8 +285,10 @@ body, html {
     font-size: 20px;
     position: absolute;
     width: 30%;
-    bottom: 30%;
+    bottom: 20%;
     left: 60%;
+    border-left: 5px solid black;
+    padding-left: 3%;
 
 }
 
@@ -291,7 +326,6 @@ body, html {
 #expPage {
 
     position: relative;
-    background-color: rgba(0,0,0, 0.3);
     height: 100%;
 
 }
