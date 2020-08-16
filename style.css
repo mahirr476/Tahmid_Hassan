@@ -229,66 +229,6 @@ body, html {
     color: white;
   }
 
-.infoTabs {
-    position: absolute;
-    top: 80%;
-    display: flex;
-    justify-content:space-between;
-    font-size: 15px;
-    width: 60%;
-    left: 18%;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    text-transform: uppercase;
-  
-    
-}
-
-.resume {
-    border: 3px solid white;
-    position: relative;
-    padding-top: 20px;
-    padding-right: 60px;
-    padding-bottom: 20px;
-    padding-left: 60px;
-    text-decoration: none;
-    background-color: white;
-    color: black;
-    border: 3px solid black;
-}
-
-
-.contact {
-    border: 3px solid white;
-    position: relative;
-    padding-top: 20px;
-    padding-right: 60px;
-    padding-bottom: 20px;
-    padding-left: 60px;
-    text-decoration: none;
-    background-color: white;
-    color: black;
-    border: 3px solid black;
-
-}
-
-
-.blah {
-    border: 3px solid white;
-    position: relative;
-    padding-top: 20px;
-    padding-right: 60px;
-    padding-bottom: 20px;
-    padding-left: 60px;
-    text-decoration: none;
-    background-color: white;
-    color: black;
-    border: 3px solid black;
-}
-
-
-
 
 #aboutPage {
     position: relative;
@@ -570,9 +510,6 @@ body, html {
 }
 
 
-
-
-
 #skillsPage {
 
     position: relative;
@@ -582,25 +519,117 @@ body, html {
 
 .skillsH {
     font-size: 50px;
-    position: absolute;
+    position: relative;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     text-transform: uppercase;
     top: 10%;
-    left: 5%;
+    text-align: center;
 
 }
 
-.descriptionS {
+.skillsHr {
 
-    font-size: 30px;
     position: relative;
+    top: 10%;
     width: 50%;
-    height: 100%;
-    top: 25%;
-    left: 5%;
+    text-align: center;
     color: white;
+    height: 0.2%;
+    background-color: black;
 
+
+}
+
+.nobullets {
+    list-style-type: none;
+}
+
+.skill-title {
+    position: absolute;
+    top: 30%;
+    font-weight: 500;
+    left: 25%;
+    font-size: 25px;
+}
+
+.skill-score {
+    position: absolute;
+    top: 31%;
+    left: 40%;
+    
+}
+
+.skill-title1 {
+
+    position: absolute;
+    top: 35%;
+    font-weight: 500;
+    left: 25%;
+    font-size: 25px;
+
+}
+
+.skill-score1 {
+    position: absolute;
+    top: 35.5%;
+    left: 40%;
+
+}
+
+.skill-title2 {
+
+    position: absolute;
+    top: 40%;
+    font-weight: 500;
+    left: 25%;
+    font-size: 25px;
+
+}
+
+.skill-score2 {
+    position: absolute;
+    top: 40.5%;
+    left: 40%;
+
+}
+
+.skill-title3 {
+
+    position: absolute;
+    top: 45%;
+    font-weight: 500;
+    left: 25%;
+    font-size: 25px;
+
+}
+
+.skill-score3 {
+    position: absolute;
+    top: 45.5%;
+    left: 40%;
+
+}
+
+.skill-title4 {
+
+    position: absolute;
+    top: 50%;
+    font-weight: 500;
+    left: 25%;
+    font-size: 25px;
+
+}
+
+.skill-score4 {
+    position: absolute;
+    top: 50.5%;
+    left: 40%;
+
+}
+
+.checked {
+    color: white;
 }
 
 #interestsPage {
@@ -637,7 +666,7 @@ body, html {
 
     position: relative;
     background-color: rgba(0,0,0, 0.7);
-    height: 25%;
+    height: 50%;
 
 }
 
