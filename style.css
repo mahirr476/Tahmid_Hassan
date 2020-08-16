@@ -27,6 +27,15 @@ body, html {
     opacity: 0.5;
 }
 
+.vert {
+    position: absolute;
+    bottom: 60%;
+    background-color: black;
+    height: 1%;
+    width: 38%;
+    left: 25%;
+    border: 1px solid black;
+}
 
 .homeH {
 
@@ -141,7 +150,31 @@ body, html {
 
 }
 
-.education {
+.skills {
+    
+    position: relative;
+    padding-top: 20px;
+    padding-right: 90px;
+    padding-bottom: 20px;
+    padding-left: 90px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.contactMe {
+    
+    position: relative;
+    padding-top: 20px;
+    padding-right: 90px;
+    padding-bottom: 20px;
+    padding-left: 90px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.interests {
     
     position: relative;
     padding-top: 20px;
@@ -326,41 +359,228 @@ body, html {
 #expPage {
 
     position: relative;
+    background-color: rgba(0,0,0, 0.7);
     height: 100%;
 
 }
 
 .expH {
     font-size: 50px;
-    position: absolute;
+    position: relative;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     text-transform: uppercase;
+    text-align: center;
+    color: white;
     top: 10%;
-    left: 5%;
 
 }
 
-.descriptionE {
+.expSubH {
 
-    font-size: 30px;
     position: relative;
+    font-size: 20px;
+    top: 8%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.expHr{
+
+    position: relative;
+    top: 10%;
     width: 50%;
-    height: 100%;
-    top: 25%;
-    left: 5%;
-
-}
-
-#educPage {
-
-    position: relative;
-    background-color: rgba(0,0,0, 0.7);
-    height: 100%;
+    text-align: center;
+    color: white;
 
 }
 
 .educH {
+
+    font-size: 30px;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: left;
+    color: black;
+    top: 30%;
+    left: 25.5%;
+
+}
+
+.firstExp {
+    
+    font-size: 20px;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 3000;
+    text-transform: uppercase;
+    text-align: left;
+    color: black;
+    top: 36%;
+    left: 40%;
+}
+.firstExpLoc {
+
+    font-size: 20px;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 3000;
+    text-transform: uppercase;
+    text-align: left;
+    color: white;
+    top: 36%;
+    left: 26%;
+
+}
+
+.firstExpDate {
+
+    font-size: 16px;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: left;
+    color: white;
+    top: 39%;
+    left: 26%;
+
+}
+
+
+.descriptionEF {
+
+    font-size: 16px;
+    text-align: left;
+    position: absolute;
+    width: 35%;
+    top: 40%;
+    left: 40%;
+
+}
+
+
+.secondExp {
+    
+    font-size: 20px;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 3000;
+    text-transform: uppercase;
+    text-align: left;
+    color: black;
+    top: 52.5%;
+    left: 40%;
+}
+.secondExpLoc {
+
+    font-size: 20px;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 3000;
+    text-transform: uppercase;
+    text-align: left;
+    color: white;
+    top: 52.5%;
+    left: 26%;
+
+}
+
+.secondExpDate {
+
+    font-size: 16px;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: left;
+    color: white;
+    top: 56%;
+    left: 26%;
+
+}
+
+
+.descriptionES {
+
+    font-size: 16px;
+    text-align: left;
+    position: absolute;
+    width: 35%;
+    top: 56%;
+    left: 40%;
+
+}
+
+
+.thirdExp {
+    
+    font-size: 20px;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 3000;
+    text-transform: uppercase;
+    text-align: left;
+    color: black;
+    top: 69%;
+    left: 40%;
+}
+.thirdExpLoc {
+
+    font-size: 20px;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 3000;
+    text-transform: uppercase;
+    text-align: left;
+    color: white;
+    top: 69%;
+    left: 26%;
+
+}
+
+.thirdExpDate {
+
+    font-size: 16px;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: left;
+    color: white;
+    top: 72.5%;
+    left: 26%;
+
+}
+
+
+.descriptionET {
+
+    font-size: 16px;
+    text-align: left;
+    position: absolute;
+    width: 35%;
+    top: 72.5%;
+    left: 40%;
+
+}
+
+
+
+
+
+#skillsPage {
+
+    position: relative;
+    height: 100%;
+
+}
+
+.skillsH {
     font-size: 50px;
     position: absolute;
     font-family: 'Montserrat', sans-serif;
@@ -371,7 +591,7 @@ body, html {
 
 }
 
-.descriptionED {
+.descriptionS {
 
     font-size: 30px;
     position: relative;
@@ -383,11 +603,40 @@ body, html {
 
 }
 
+#interestsPage {
+
+    position: relative;
+    height: 100%;
+
+}
+
+.interestsH {
+    font-size: 50px;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    top: 10%;
+    left: 5%;
+
+}
+
+.descriptionI {
+
+    font-size: 30px;
+    position: relative;
+    width: 50%;
+    height: 100%;
+    top: 25%;
+    left: 5%;
+
+}
+
 
 #contactPage {
 
     position: relative;
-    background-color: lightgray;
+    background-color: rgba(0,0,0, 0.7);
     height: 25%;
 
 }
@@ -399,6 +648,7 @@ body, html {
     font-weight: 300;
     text-transform: uppercase;
     text-align: center;
+    color: white;
 
 }
 
