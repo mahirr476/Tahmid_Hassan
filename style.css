@@ -275,26 +275,60 @@ body, html {
 
 .projH {
     font-size: 50px;
-    position: absolute;
+    position: relative;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     text-transform: uppercase;
     top: 10%;
-    left: 5%;
-
-}
-
-.descriptionP {
-
-    font-size: 30px;
-    position: relative;
-    width: 50%;
-    height: 100%;
-    top: 25%;
-    left: 5%;
+    text-align: center;
     color: white;
 
+
 }
+
+.img {
+    height: 60%;
+    width: 50%;
+}
+
+.proj1 {
+
+    position: absolute;
+    bottom: 45%;
+    left: 28%;
+}
+
+.img:hover {
+    background-color: black;
+    opacity: 0.5;
+}
+
+
+
+.proj2 {
+
+    position: absolute;
+    bottom: 45%;
+    left: 52%;
+    
+}
+
+.proj3{
+
+    position: absolute;
+    bottom: 15%;
+    left: 28%;
+    
+}
+
+.proj4 {
+
+    position: absolute;
+    bottom: 15%;
+    left: 52%;
+    
+}
+
 
 #expPage {
 
